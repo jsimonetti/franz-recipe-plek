@@ -1,0 +1,24 @@
+{
+  "id": "plek",
+  "name": "Plek",
+  "version": "1.0",
+  "description": "Plek",
+  "main": "index.js",
+  "author": "Jeroen Simonetti <jeroen@simonetti.nl>",
+  "repository": "https://github.com/jsimonetti/franz-recipe-plek",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.plek.co",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": true,
+    "hasTeamId": true,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
